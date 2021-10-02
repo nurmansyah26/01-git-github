@@ -1,0 +1,24 @@
+tuliskan langkah-langkah maupun penjelasan dari praktik GitHub di atas.
+
+1. Instalasi Git
+https://git-scm.com/downloads
+Sebelum install Git di Windows, anda harus sudah mempunyai editor teks yang didukung oleh Windws. Editor yang bisa dipilih banyak, tetapi disarankan menggunakan Notepad++ atau Visual Studion Code atau Vim.
+
+2. Login github
+https://github.com/
+apabila belum punya akun, bikin akun github menggunakan email dan password.
+
+3. Konfigurasi git
+buka git bash apabila sudah menginstall git.
+
+ketik
+$ git config --global user.name "Nama Anda di GitHub"
+$ git config --global user.email email@domain.tld
+
+Isian di atas harus disesuaikan dengan nama serta email yang digunakan untuk mendaftar di GitHub. Untuk melihat konfigurasi yang sudah ada:
+$ git config --list
+
+4. Mengelola repo sendiri
+Buat repository baru, new repository.
+tulis nama repository nya, publik, kemudian create repository.
+Setelah repo sudah di buat, kemudian upload file ke repository nya
